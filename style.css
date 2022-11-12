@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+main{
+    margin: 7%;
+}
+
+#heading {
+    border: 2px solid brown;
+    color: black;
+    background: linear-gradient(violet, pink);
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    align-content: center;
+    margin:  auto;
+}
+
+#MainContent {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    background: linear-gradient(palegreen, rgb(27, 142, 187));
+    row-gap: 5em;
+    color: rgb(37, 9, 68);
+}
+
+#btn {
+height: 5em;
+    font-size: large;
+    margin: auto;
+    min-width: 10em;
+    background:linear-gradient(#cc2b5e,#753a88);
+    
+}
+
+#Color {
+    /* position: absolute; */
+    text-align: center;
+    /* top: 21%;
+    left: 37%; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 237%;
+}
